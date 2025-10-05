@@ -157,6 +157,7 @@ chmod -R 775 /opt/sonatype-work
 step 14: Open /opt/nexus/bin/nexus.rc file and  uncomment run_as_user parameter and set as nexus user.
 
 vi /opt/nexus/bin/nexus.rc
+
 run_as_user="nexus"
 
 #step 15: Create nexus as a service
